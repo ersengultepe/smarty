@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9e152beb21594697a5fc9fa31402ab3190d078dd',
+        'reference' => '9f4199dea3260dc94c149162f12c05c38dedd834',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -442,7 +442,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9e152beb21594697a5fc9fa31402ab3190d078dd',
+            'reference' => '9f4199dea3260dc94c149162f12c05c38dedd834',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -775,6 +775,17 @@
             'replaced' => array(
                 0 => '4.2.3',
             ),
+        ),
+        'roave/security-advisories' => array(
+            'pretty_version' => 'dev-latest',
+            'version' => 'dev-latest',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '57a3ee3eb79b9538f3012e6b66c04cdac0b551d1',
+            'dev_requirement' => true,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
