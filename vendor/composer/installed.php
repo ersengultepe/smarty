@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cb5f5a818779fcc1b78505370bb6f442305f2b8b',
+        'reference' => 'cef257027195aa4cff6178ba0c0222839dcbb3e7',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -541,7 +541,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cb5f5a818779fcc1b78505370bb6f442305f2b8b',
+            'reference' => 'cef257027195aa4cff6178ba0c0222839dcbb3e7',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
