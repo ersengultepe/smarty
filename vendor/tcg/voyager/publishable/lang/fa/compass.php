@@ -8,6 +8,7 @@ return [
         'title'                 => 'لینک ها',
         'documentation'         => 'راهنمای استفاده',
         'voyager_homepage'      => 'صفحه اصلی voyager',
+        'voyager_hooks'         => 'هوک های voyager',
     ],
     'commands'      => [
         'title'                 => 'دستورات',

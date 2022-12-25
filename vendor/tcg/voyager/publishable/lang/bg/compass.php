@@ -8,6 +8,7 @@ return [
         'title'                 => 'Линкове',
         'documentation'         => 'Документация',
         'voyager_homepage'      => 'Начална страница на Voyager',
+        'voyager_hooks'         => 'Voyager Hooks',
     ],
     'commands'      => [
         'title'                 => 'Команди',

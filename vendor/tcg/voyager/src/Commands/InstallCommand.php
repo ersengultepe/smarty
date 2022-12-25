@@ -156,6 +156,9 @@ class InstallCommand extends Command
             $this->call('db:seed', ['--class' => 'VoyagerDummyDatabaseSeeder']);
         }
 
+        $this->info('Setting up the hooks');
+        $this->call('hook:setup');
+
         $this->info('Adding the storage symlink to your public folder');
         $this->call('storage:link');
 

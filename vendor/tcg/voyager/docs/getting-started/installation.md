@@ -103,7 +103,9 @@ Route::group(['prefix' => 'admin'], function () {
 
 Now run  
 `php artisan db:seed --class=VoyagerDatabaseSeeder`  
-to seed some necessary data to your database, and  
+to seed some necessary data to your database,  
+`php artisan hook:setup`  
+to install the hooks system, and  
 `php artisan storage:link`  
 to create the storage symlink to your public folder.
 

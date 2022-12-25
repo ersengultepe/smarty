@@ -7,6 +7,7 @@ return [
         'title'                 => 'リンク',
         'documentation'         => 'ドキュメント(英語サイト)',
         'voyager_homepage'      => 'Voyager ホームページ (英語サイト)',
+        'voyager_hooks'         => 'Voyager フック (英語サイト)',
     ],
     'commands'      => [
         'title'                 => 'コマンド',

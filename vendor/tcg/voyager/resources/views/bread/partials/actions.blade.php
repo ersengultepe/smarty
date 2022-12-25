@@ -5,11 +5,9 @@
         $action = new $class($dataType, $data);
     @endphp
     @can ($action->getPolicy(), $data)
-        @if ($action->shouldActionDisplayOnRow($data))
-            <a href="{{ $action->getRoute($dataType->name) }}" title="{{ $action->getTitle() }}" {!! $action->convertAttributesToHtml() !!}>
-                <i class="{{ $action->getIcon() }}"></i> <span class="hidden-xs hidden-sm">{{ $action->getTitle() }}</span>
-            </a>
-        @endif
+        <a href="{{ $action->getRoute($dataType->name) }}" title="{{ $action->getTitle() }}" {!! $action->convertAttributesToHtml() !!}>
+            <i class="{{ $action->getIcon() }}"></i> <span class="hidden-xs hidden-sm">{{ $action->getTitle() }}</span>
+        </a>
     @endcan
 @elseif (method_exists($action, 'massAction'))
     <form method="post" action="{{ route('voyager.'.$dataType->slug.'.action') }}" style="display:inline">

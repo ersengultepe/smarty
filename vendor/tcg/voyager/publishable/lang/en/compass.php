@@ -7,6 +7,7 @@ return [
         'title'                 => 'Links',
         'documentation'         => 'Documentation',
         'voyager_homepage'      => 'Voyager Homepage',
+        'voyager_hooks'         => 'Voyager Hooks',
     ],
     'commands'      => [
         'title'                 => 'Commands',

@@ -6,6 +6,7 @@ return [
         'title'                 => '链接',
         'documentation'         => '文档',
         'voyager_homepage'      => '官网',
+        'voyager_hooks'         => 'Hooks',
     ],
     'commands'      => [
         'title'                 => '命令',

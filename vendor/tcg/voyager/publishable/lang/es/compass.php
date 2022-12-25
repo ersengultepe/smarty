@@ -7,6 +7,7 @@ return [
         'title'                 => 'Enlaces',
         'documentation'         => 'Documentación',
         'voyager_homepage'      => 'Página de inicio de Voyager',
+        'voyager_hooks'         => 'Voyager Hooks',
     ],
     'commands'      => [
         'title'                 => 'Comandos',

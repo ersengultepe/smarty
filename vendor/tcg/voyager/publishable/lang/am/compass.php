@@ -7,6 +7,7 @@ return [
         'title'                 => 'Հղումներ',
         'documentation'         => 'Փաստաթղթեր',
         'voyager_homepage'      => 'Voyager Գլխավոր էջ',
+        'voyager_hooks'         => 'Voyager Hooks',
     ],
     'commands'      => [
         'title'                 => 'Հրամաններ',

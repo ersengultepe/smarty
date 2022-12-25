@@ -7,6 +7,7 @@ return [
         'title'                 => 'Bağlantılar',
         'documentation'         => 'Dokümantasyon',
         'voyager_homepage'      => 'Voyager Anasayfa',
+        'voyager_hooks'         => 'Voyager Hookları',
     ],
     'commands'      => [
         'title'                 => 'Komutlar',
