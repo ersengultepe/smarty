@@ -33,6 +33,10 @@ Route::get('commandx', function (){
     Artisan::call('storage:link');
 });
 
+Route::get('clear', function (){
+   Artisan::call("optimize:clear");
+});
+
 Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
 
     Route::get('/', function () {
