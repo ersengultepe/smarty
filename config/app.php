@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://www.physmart.com.tr'),
+    'url' => env('APP_URL', 'http://www.physmart.com.tr/public'),
 
     'asset_url' => env('ASSET_URL', null),
 
