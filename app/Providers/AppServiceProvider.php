@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
-use App\BizKimiz;
-use App\Brand;
-use App\Explore;
-use App\Slide;
+use App\Models\BizKimiz;
+use App\Models\Brand;
+use App\Models\Explore;
+use App\Models\Slide;
 use Illuminate\Support\ServiceProvider;
 use TCG\Voyager\Models\Post;
 

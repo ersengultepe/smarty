@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'  ),
             'host' => env('DB_HOST', '94.73.150.29'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'u7629406_Smarty'),
+            'database' => env('DB_DATABASE', 'u7629406_smarty'),
             'username' => env('DB_USERNAME', 'u7629406_uSmarty'),
             'password' => env('DB_PASSWORD', '8i5MBn@a4b-==9RK'),
             'unix_socket' => env('DB_SOCKET', ''),

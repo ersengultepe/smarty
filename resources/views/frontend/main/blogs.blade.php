@@ -20,7 +20,10 @@
                     <div class="col ps-1">
                         <h4 class="line-height-3 text-4"><a href="#" class="text-dark">{{ $blog->getTranslatedAttribute('title', \Illuminate\Support\Facades\Session::get('locale')) }}</a></h4>
                         <p class="line-height-5 pe-4 mb-1">{{ \Illuminate\Support\Str::limit($blog->getTranslatedAttribute('excerpt', \Illuminate\Support\Facades\Session::get('locale')), 80) }}</p>
-                        <a href="{{ route('phyblogs', ['slug' => $blog->slug]) }}" class="read-more text-color-dark font-weight-bold text-2">daha fazlası <i class="fas fa-chevron-right text-1 ms-1"></i></a>
+                        <a href="{{ route('phyblogs', ['slug' => $blog->slug]) }}" class="read-more text-color-dark font-weight-bold text-2">
+                            {{ __('physmart.viewMore') }}
+                            <i class="fas fa-chevron-right text-1 ms-1"></i>
+                        </a>
                     </div>
                 </div>
             </article>

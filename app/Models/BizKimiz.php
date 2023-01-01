@@ -1,21 +1,24 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use TCG\Voyager\Traits\Translatable;
 
 
-class Explore extends Model
+class BizKimiz extends Model
 {
     use Translatable;
     protected $translatable = [
         'title',
+        'text',
+        'icon',
     ];
 
     protected $fillable = [
         'title',
-        'href',
-        'img'
+        'text',
+        'icon',
+        'order'
     ];
 }

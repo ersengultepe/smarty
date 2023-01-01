@@ -48,7 +48,7 @@ Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
 
 });
 
-Route::get('lang/{item?}', function ($item='tr'){
+Route::get('lang/{item?}', function ($item){
     Session::put('locale', $item);
     return Redirect::back();
 })->name('lang');

@@ -33,23 +33,23 @@
                                     @if(\Illuminate\Support\Facades\Session::get('locale') === 'en')
                                             <li class="nav-item nav-item-borders py-2 pe-0 dropdown">
                                                 <a class="nav-link" href="{{ route('lang', 'en') }}" role="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <img src="/porto/img/blank.gif" class="flag flag-us" alt="English" /> English
+                                                    <img src="{{ asset("/porto/img/blank.gif") }}" class="flag flag-us" alt="English" /> English
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownLanguage">
                                                     <a class="dropdown-item" href="{{ route('lang', 'tr') }}">
-                                                        <img src="/porto/img/blank.gif" class="flag flag-tr" alt="Türkçe" /> Türkçe</a>
+                                                        <img src="{{ asset("/porto/img/blank.gif") }}" class="flag flag-tr" alt="Türkçe" /> Türkçe</a>
                                                 </div>
                                             </li>
                                     @else
                                             <li class="nav-item nav-item-borders py-2 pe-0 dropdown">
                                                 <a class="nav-link" href="{{ route('lang', 'tr') }}" role="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <img src="/porto/img/blank.gif" class="flag flag-tr" alt="Türkçe" /> Türkçe
+                                                    <img src="{{ asset("/porto/img/blank.gif") }}" class="flag flag-tr" alt="Türkçe" /> Türkçe
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownLanguage">
                                                     <a class="dropdown-item" href="{{ route('lang', 'en') }}">
-                                                        <img src="/porto/img/blank.gif" class="flag flag-us" alt="English" /> English</a>
+                                                        <img src="{{ asset("/porto/img/blank.gif") }}" class="flag flag-us" alt="English" /> English</a>
                                                 </div>
                                             </li>
                                     @endif

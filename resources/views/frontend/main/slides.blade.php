@@ -12,13 +12,13 @@
                             <div class="d-flex flex-column align-items-center justify-content-center h-100">
                                 <h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium ls-0 px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-plugin-options="{'minWindowWidth': 0}">
                                         <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-7">
-                                            <img src="/porto/img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+                                            <img src="{{ asset("/porto/img/slides/slide-title-border-light.png") }}" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
                                         </span>
                                     <span style="color: white">
                                     {{ $slide->getTranslatedAttribute('title1', \Illuminate\Support\Facades\Session::get('locale')) }}
                                     </span>
                                   <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-7" style="color:#ffffff!important" >
-                                        <img src="/porto/img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+                                        <img src="{{ asset("/porto/img/slides/slide-title-border-light.png") }}" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
                                     </span>
                                 </h3>
                                 <h1 class="text-color-light font-weight-extra-bold text-12-5 line-height-3 mb-2 appear-animation exploreBtn" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
