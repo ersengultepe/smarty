@@ -52,7 +52,8 @@ return [
             'driver' => 'local',
 //            'root' => storage_path('app/public'),
             'root' => 'storage/app/public',
-            'url' => env('APP_URL').'/storage',
+//            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL', 'http://www.physmart.com.tr/').'/storage',
             'visibility' => 'public',
         ],
 
