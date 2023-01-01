@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 //use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Voyager;
@@ -26,6 +27,10 @@ Route::group(['prefix' => 'admin'  ], function () {
 
 Route::get('/', function (){
     return view('frontend.construction');
+});
+
+Route::get('commandx', function (){
+    Artisan::call('storage:link');
 });
 
 Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
