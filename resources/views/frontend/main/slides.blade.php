@@ -24,7 +24,7 @@
                                 <h1 class="text-color-light font-weight-extra-bold text-12-5 line-height-3 mb-2 appear-animation exploreBtn" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
                                     {{ $slide->getTranslatedAttribute('title2', \Illuminate\Support\Facades\Session::get('locale')) }}
                                 </h1>
-                                <p class="text-4-5 text-color-light font-weight-light opacity-7 text-center mb-5" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}" style="color:#ffffff!important" >
+                                <p class="text-4-5 text-color-light font-weight-light opacity-7 mb-5" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}" style="color:#ffffff!important" >
                                     {!! $slide->getTranslatedAttribute('title3', \Illuminate\Support\Facades\Session::get('locale')) !!}
                                 </p>
                                 <a href="{{ $slide->btnHref }}" class="d-inline-flex align-items-center btn btn-outline-light text-color-hover-light font-weight-bold px-4 btn-py-2 text-1 rounded" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800" data-plugin-options="{'minWindowWidth': 0}" >
