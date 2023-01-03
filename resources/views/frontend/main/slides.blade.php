@@ -41,7 +41,9 @@
     </div>
     <div class="owl-dots mb-5">
         <button role="button" class="owl-dot active"><span></span></button>
-        <button role="button" class="owl-dot"><span></span></button>
+        @for($i=0; $i<$slides->count(); $i++)
+            <button role="button" class="owl-dot"><span></span></button>
+        @endfor
     </div>
 </div>
 <!--- SLIDES : end --->
