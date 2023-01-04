@@ -31,7 +31,7 @@
                 }
 
                 // Check if link is current
-                if(url($item->link()) == url()->current()){
+                if(url($item->link()) === url()->current()){
                     $isActive = 'active';
                 }
 
